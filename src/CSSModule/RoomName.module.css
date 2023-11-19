@@ -1,0 +1,59 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.form {
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.input {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    margin: 10px;
+}
+
+.buttonContainer button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.buttonSignOut {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (min-width: 500px) {
+    .label {
+        font-size: 28px;
+        font-weight: 900;
+    }
+
+    .input {
+        text-align: center;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: #EFEFEF;
+        width: 400px;
+    }
+
+    .buttonContainer button {
+        font-size: 18px;
+    }
+}

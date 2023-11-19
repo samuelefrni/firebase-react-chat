@@ -1,0 +1,117 @@
+.header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.h1 {
+    font-size: 15px;
+}
+
+.leaveRoom {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+
+.containerMessage {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.messages {
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.nameUser {
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 60px;
+    margin-right: 5px;
+}
+
+.messageUser {
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 1rem;
+    margin-right: 5px;
+}
+
+.dateContainer{
+    margin-left: auto;
+    text-align: end;
+}
+
+.hour {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.date {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.profilePic {
+    border-radius: 100vh;
+    max-height: 20px;
+    margin: 10px;
+}
+
+.formContainer {
+    padding: 10px 0px;
+    height: 10vh;
+}
+
+.inputForm {
+    width: 90%;
+}
+
+.buttonForm {
+    width: 10%;
+}
+
+@media only screen and (min-width: 500px) {
+    .h1 {
+        font-size: 25px;
+    }
+
+    .span {
+        font-size: 28px;
+    }
+
+    .nameUser {
+        font-size: 18px;
+        min-width: 150px;
+    }
+
+    .messageUser {
+        font-size: 15px;
+    }
+
+    .hour {
+        font-size: 15px;
+    }
+
+    .date {
+        font-size: 13px;
+    }
+
+    .profilePic {
+        max-height: 30px;
+    }
+
+    .leaveRoom {
+        font-size: 18px;
+    }
+}
