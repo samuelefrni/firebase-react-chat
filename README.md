@@ -2,7 +2,7 @@
 <h1 align="center">Chat App</h1>
 <p align="center">A simple Chat App, to talk with peoples around the world, meeting with it in a specific room!
 <br>
-Click here to <a href="https://samuelefrni-chat.netlify.app/"><strong>website</strong></a>
+Click here to <a href="https://samuelefrni-chat.netlify.app/"><strong>chat</strong></a>
 </p>
 
 ## Introduction to Project
