@@ -21,6 +21,11 @@
     font-weight: 700;
 }
 
+.leaveRoom:hover {
+    opacity: .8;
+    background-color: rgb(197, 0, 0);
+}
+
 .containerMessage {
     height: 80vh;
     overflow-y: scroll;
@@ -69,16 +74,16 @@
 }
 
 .formContainer {
-    padding: 10px 0px;
+    padding: 10px 10px;
     height: 10vh;
 }
 
 .inputForm {
-    width: 90%;
+    width: 80%;
 }
 
 .buttonForm {
-    width: 10%;
+    width: 20%;
 }
 
 @media only screen and (min-width: 500px) {

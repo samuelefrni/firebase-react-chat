@@ -38,6 +38,11 @@
     color: white;
 }
 
+.buttonSignOut:hover {
+    opacity: .8;
+    background-color: rgb(197, 0, 0);
+}
+
 @media only screen and (min-width: 500px) {
     .label {
         font-size: 28px;
